@@ -17,5 +17,6 @@
 .item:hover,
 .item:focus {
   transform: scale(1.05);
-  box-shadow: 0px 2px 10px 2px var(--color-primary);
+  box-shadow: 0px 0px 20px rgba(255, 223, 0, 0.8);
+  
 }
