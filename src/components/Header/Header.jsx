@@ -19,8 +19,8 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/country" className={addActive}>
-                  Countries
+                <NavLink to="/search" className={addActive}>
+                 Search Country
                 </NavLink>
               </li>
             </ul>

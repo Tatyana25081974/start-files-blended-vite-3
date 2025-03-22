@@ -23,7 +23,7 @@ const Home = () => {
     <Section>
       <Container>
         <Heading title="Home" bottom />
-        <Link to="/search" className={styles.link}>🔎 Пошук країн за регіоном</Link>
+        
         {loading && <p>Завантаження...</p>}
         <CountryList countries={countries}/>
       </Container>

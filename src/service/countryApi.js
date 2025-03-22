@@ -5,7 +5,7 @@ axios.defaults.baseURL = 'https://restcountries.com/v3.1';
 // 🔹 Отримати інформацію про країну за name
 export const getCountries = async () => {
   try { 
-  const { data } = await axios.get('/region/${region}');
+  const { data } = await axios.get('/region/europe');
   return transformCountriesData(data);
 } catch (error) {
   console.error("❌ Помилка отримання країн :", error);
