@@ -1,0 +1,19 @@
+.wrapper {
+    padding: 2rem 1rem;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.loader {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 2rem;
+}

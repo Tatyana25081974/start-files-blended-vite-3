@@ -5,7 +5,7 @@ export default function CountryList({ countries }) {
   return (
     <Grid>
       {countries.map((country) => (
-        <GridItem key={country.name} country={country} />
+        <GridItem key={country.id} country={country} />
       ))}
     </Grid>
   );

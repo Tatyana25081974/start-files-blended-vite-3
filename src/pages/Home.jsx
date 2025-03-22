@@ -4,6 +4,8 @@ import Container from '../components/Container/Container';
 import Heading from '../components/Heading/Heading';
 import Section from '../components/Section/Section';
 import CountryList from "../components/CountryList/CountryList"; // Додаємо список країн
+import { Link } from "react-router-dom";
+import styles from "./Home.module.css";
 
 const Home = () => {
   const [countries, setCountries] = useState([]);
@@ -21,6 +23,7 @@ const Home = () => {
     <Section>
       <Container>
         <Heading title="Home" bottom />
+        <Link to="/search" className={styles.link}>🔎 Пошук країн за регіоном</Link>
         {loading && <p>Завантаження...</p>}
         <CountryList countries={countries}/>
       </Container>
